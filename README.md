@@ -89,6 +89,7 @@ ORDER BY calendar_year;
 | 2019 | 365639285 |
 | 2020 | 375813651 |
 
+---
 3. **What is the total sales for each region for each month?**
 
 ```sql
@@ -115,6 +116,7 @@ ORDER BY month_num, region;
 | 3 | SOUTH AMERICA | 71023109 |
 | 3 | USA | 225353043 |
 
+---
 4. **What is the total count of transactions for each platform?**
 
 ```sql
@@ -132,6 +134,7 @@ GROUP BY platform;
 | Retail | 1081934227 |
 | Shopify | 5925169 |
 
+---
 5. **What is the percentage of sales for Retail vs Shopify for each month?**
 
 ```sql
@@ -171,6 +174,7 @@ ORDER BY year_num, month_num;
 | 2018 | 6 | 97.76 | 2.24 |
 | 2018 | 7 | 97.75 | 2.25 |
 
+---
 6. **What is the percentage of sales by demographic for each year in the dataset?**
 
 ```sql
@@ -207,6 +211,7 @@ GROUP BY year_num;
 | 2018 | 26.38 | 31.99 | 41.63 |
 | 2020 | 28.72 | 32.73 | 38.55 |
 
+---
 7. **Which `age_band` and `demographic` values contribute the most to Retail sales?**
 
 ```sql
@@ -233,6 +238,7 @@ ORDER BY total_sales DESC;
 | Middle Aged | Couples | 1854160330 | 4.7 |
 | Young Adults | Families | 1770889293 | 4.5 |
 
+---
 8. **Can we use the `avg_transaction` column to find the average transaction size for each year for Retail vs Shopify? If not - how would you calculate it instead?**
 
 ```sql
@@ -257,6 +263,7 @@ ORDER BY year_num, platform;
 | 2020 | Retail | 41 | 36 |
 | 2020 | Shopify | 175 | 179 |
 
+---
 ### **3. Before & After Analysis**
 
 This technique is usually used when we inspect an important event and want to inspect the impact before and after a certain point in time.
@@ -309,6 +316,7 @@ FROM changes_before_after;
 | --- | --- |
 | -26884188 | -1.15 |
 
+---
 2. **What about the entire 12 weeks before and after?**
 
 ```sql
