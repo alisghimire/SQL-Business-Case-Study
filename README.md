@@ -1,6 +1,4 @@
-# SQL-Case-Study#5-Data-Mart
-
-# **Case Study Questions**
+# **SQL Case Study 5 - Data Mart**
 
 The following case study questions require some data cleaning steps before we start to unpack Danny’s key business questions in more depth.
 
