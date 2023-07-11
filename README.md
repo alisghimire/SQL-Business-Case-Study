@@ -4,7 +4,8 @@
 
 The following case study questions require some data cleaning steps before we start to unpack Danny’s key business questions in more depth.
 
-**Available Data**
+# **Available Data**
+
 ![case-study-5-erd](https://github.com/aliscfc/SQL-Case-Study---Data-Mart/assets/109817585/e0285019-abda-4b13-9156-a26e1c76e77f)
 
 
