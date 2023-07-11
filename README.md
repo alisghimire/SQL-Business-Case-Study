@@ -4,7 +4,7 @@ The following case study questions require some data cleaning steps before we st
 
 # **Available Data**
 
-![case-study-5-erd](https://github.com/aliscfc/SQL-Case-Study---Data-Mart/assets/109817585/e0285019-abda-4b13-9156-a26e1c76e77f)
+![5](https://github.com/alisghimire/SQL-Case-Study-5-Data-Mart/assets/109817585/a10dfcd3-dce8-4ede-aade-d6d77db9abb7)
 
 
 ### **1. Data Cleansing Steps**
