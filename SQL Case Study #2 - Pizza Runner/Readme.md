@@ -38,7 +38,7 @@ CREATE TEMP TABLE temp_customer_orders AS(
 
 This is how the clean `customers_orders_temp` table looks like and we will use this table to run all our queries.
 
-!https://user-images.githubusercontent.com/81607668/129472551-fe3d90a0-1e8b-4f32-a2a7-2ecd3ac469ef.png
+<img width="1058" alt="129472551-fe3d90a0-1e8b-4f32-a2a7-2ecd3ac469ef" src="https://github.com/alisghimire/SQL-Business-Case-Study/assets/109817585/19212b3f-fa29-4db2-8dcc-4fb04ef11ebe">
 
 ---
 
@@ -49,7 +49,8 @@ Looking at the `runner_orders` table below, we can see that there are
 - In the `exclusions` column, there are missing/ blank spaces ' ' and null values.
 - In the `extras` column, there are missing/ blank spaces ' ' and null values
 
-!https://user-images.githubusercontent.com/81607668/129472585-badae450-52d2-442e-9d50-e4d0d8fce83a.png
+<img width="1037" alt="129472585-badae450-52d2-442e-9d50-e4d0d8fce83a" src="https://github.com/alisghimire/SQL-Business-Case-Study/assets/109817585/126b2406-d79b-418e-b91d-6d97db1d122e">
+
 
 Our course of action to clean the table:
 
@@ -98,7 +99,9 @@ ALTER COLUMN duration INT;
 
 This is how the table `**temp_runner_orders**` looks like and we run all our queries.
 
-!https://user-images.githubusercontent.com/81607668/129472778-6403381d-6e30-4884-a011-737b1eff7379.png
+<img width="915" alt="129472778-6403381d-6e30-4884-a011-737b1eff7379" src="https://github.com/alisghimire/SQL-Business-Case-Study/assets/109817585/3ab45b5a-aa84-4a08-acb7-c73915672dcf">
+
+
 
 ### **A. Pizza Metrics**
 
