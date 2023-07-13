@@ -88,7 +88,7 @@ CREATE TEMP TABLE temp_runner_orders AS(
 );
 ```
 
-Now, let’s convert `**pickup_time**`, `**distance**` and `**duration**` to the correct data types. 
+Now, let’s convert `pickup_time`, `distance` and `duration` to the correct data types. 
 
 ```sql
 ALTER TABLE temp_runner_orders
