@@ -14,7 +14,7 @@ Looking at the `customer_orders` table below, we can see that there are
 Our course of action to clean the table:
 
 - Create a temporary table with all the columns
-- Remove null values in `exlusions` and `extras` columns and replace with blank space ' '.
+- Remove null values in `exclusions` and `extras` columns and replace with blank space ' '.
 
 ```sql
 CREATE TEMP TABLE temp_customer_orders AS(
