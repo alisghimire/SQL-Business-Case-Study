@@ -11,6 +11,7 @@ Looking at the `customer_orders` table below, we can see that there are
 
 !https://user-images.githubusercontent.com/81607668/129472388-86e60221-7107-4751-983f-4ab9d9ce75f0.png
 
+
 Our course of action to clean the table:
 
 - Create a temporary table with all the columns
