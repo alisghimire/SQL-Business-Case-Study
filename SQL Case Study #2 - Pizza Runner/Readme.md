@@ -97,7 +97,7 @@ ALTER COLUMN distance FLOAT,
 ALTER COLUMN duration INT;
 ```
 
-This is how the table `**temp_runner_orders**` looks like and we run all our queries.
+This is how the table `temp_runner_orders` looks like and we run all our queries.
 
 <img width="915" alt="129472778-6403381d-6e30-4884-a011-737b1eff7379" src="https://github.com/alisghimire/SQL-Business-Case-Study/assets/109817585/3ab45b5a-aa84-4a08-acb7-c73915672dcf">
 
