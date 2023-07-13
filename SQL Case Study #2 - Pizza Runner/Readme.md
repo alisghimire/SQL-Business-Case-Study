@@ -1,4 +1,4 @@
-# SQL Case Study #2
+# SQL Case Study #2 - Pizza Runner
 
 ## Data Cleaning & Transformation
 
@@ -113,7 +113,7 @@ FROM temp_customer_orders;
 
 ---
 
-1. **How many unique customer orders were made?**
+2. **How many unique customer orders were made?**
 
 ```sql
 SELECT 
@@ -125,7 +125,7 @@ FROM temp_customer_orders;
 
 ---
 
-1. **How many successful orders were delivered by each runner?**
+3. **How many successful orders were delivered by each runner?**
 
 ```sql
 SELECT
@@ -144,7 +144,7 @@ GROUP BY runner_id;
 
 ---
 
-1. **How many of each type of pizza was delivered?**
+4. **How many of each type of pizza was delivered?**
 
 ```sql
 SELECT
@@ -163,7 +163,7 @@ GROUP BY p.pizza_name;
 
 ---
 
-1. **How many Vegetarian and Meatlovers were ordered by each customer?**
+5. **How many Vegetarian and Meatlovers were ordered by each customer?**
 
 ```sql
 SELECT
@@ -187,7 +187,7 @@ ORDER BY c.customer_id;
 
 ---
 
-1. **What was the maximum number of pizzas delivered in a single order?**
+6. **What was the maximum number of pizzas delivered in a single order?**
 
 ```sql
 WITH pizza_count_cte AS(
@@ -210,7 +210,7 @@ FROM pizza_count_cte;
 
 ---
 
-1. **For each customer, how many delivered pizzas had at least 1 change and how many had no changes?**
+7. **For each customer, how many delivered pizzas had at least 1 change and how many had no changes?**
 
 ```sql
 SELECT
@@ -232,7 +232,7 @@ ORDER BY c.customer_id;
 
 ---
 
-1. **How many pizzas were delivered that had both exclusions and extras?**
+8. **How many pizzas were delivered that had both exclusions and extras?**
 
 ```sql
 SELECT
@@ -251,7 +251,7 @@ SELECT
 
 ---
 
-1. **What was the total volume of pizzas ordered for each hour of the day?**
+9. **What was the total volume of pizzas ordered for each hour of the day?**
 
 ```sql
 SELECT
@@ -268,7 +268,7 @@ GROUP BY hour_of_day;
 
 ---
 
-1. **What was the volume of orders for each day of the week?**
+10. **What was the volume of orders for each day of the week?**
 
 ```sql
 SELECT
@@ -305,7 +305,7 @@ GROUP BY registration_week;
 
 ---
 
-1. **What was the average time in minutes it took for each runner to arrive at the Pizza Runner HQ to pickup the order?**
+2. **What was the average time in minutes it took for each runner to arrive at the Pizza Runner HQ to pickup the order?**
 
 ```sql
 WITH average_time_cte AS(
@@ -332,7 +332,7 @@ WHERE pickup_minutes > 1;
 
 ---
 
-1. **Is there any relationship between the number of pizzas and how long the order takes to prepare?**
+3. **Is there any relationship between the number of pizzas and how long the order takes to prepare?**
 
 ```sql
 WITH prep_time_cte AS(
@@ -365,7 +365,7 @@ GROUP BY total_pizzas;
 
 ---
 
-1. **What was the average distance travelled for each customer?**
+4. **What was the average distance traveled for each customer?**
 
 ```sql
 SELECT
@@ -385,7 +385,7 @@ Answer:
 
 ---
 
-1. **What was the difference between the longest and shortest delivery times for all orders?**
+5. **What was the difference between the longest and shortest delivery times for all orders?**
 
 ```sql
 SELECT
@@ -398,7 +398,7 @@ WHERE duration NOT LIKE ' ';
 
 ---
 
-1. **What was the average speed for each runner for each delivery and do you notice any trend for these values?**
+6. **What was the average speed for each runner for each delivery and do you notice any trend for these values?**
 
 ```sql
 SELECT
@@ -424,7 +424,7 @@ ORDER BY c.order_id;
 
 ---
 
-1. **What is the successful delivery percentage for each runner?**
+7. **What is the successful delivery percentage for each runner?**
 
 ```sql
 SELECT 
