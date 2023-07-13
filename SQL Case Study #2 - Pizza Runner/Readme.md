@@ -9,7 +9,7 @@ Looking at the `customer_orders` table below, we can see that there are
 - In the `exclusions` column, there are missing/ blank spaces ' ' and null values.
 - In the `extras` column, there are missing/ blank spaces ' ' and null values.
 
-!https://user-images.githubusercontent.com/81607668/129472388-86e60221-7107-4751-983f-4ab9d9ce75f0.png
+<img width="1063" alt="129472388-86e60221-7107-4751-983f-4ab9d9ce75f0 (1)" src="https://github.com/alisghimire/SQL-Business-Case-Study/assets/109817585/95d584e2-ac95-4fcf-a449-80fd06eb5ea2">
 
 
 Our course of action to clean the table:
